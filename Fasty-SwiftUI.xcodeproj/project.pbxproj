@@ -12,6 +12,7 @@
 		8B78D79328BE2117002AC3AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B78D79228BE2117002AC3AD /* Assets.xcassets */; };
 		8B78D79628BE2117002AC3AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B78D79528BE2117002AC3AD /* Preview Assets.xcassets */; };
 		8B78D79D28BE3011002AC3AD /* ProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B78D79C28BE3011002AC3AD /* ProgressRing.swift */; };
+		8B847D2E28BE863400107FF1 /* FastingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B847D2D28BE863400107FF1 /* FastingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		8B78D79228BE2117002AC3AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B78D79528BE2117002AC3AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8B78D79C28BE3011002AC3AD /* ProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRing.swift; sourceTree = "<group>"; };
+		8B847D2D28BE863400107FF1 /* FastingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				8B78D78E28BE2116002AC3AD /* Fasty_SwiftUIApp.swift */,
 				8B78D79028BE2116002AC3AD /* ContentView.swift */,
 				8B78D79C28BE3011002AC3AD /* ProgressRing.swift */,
+				8B847D2D28BE863400107FF1 /* FastingManager.swift */,
 				8B78D79228BE2117002AC3AD /* Assets.xcassets */,
 				8B78D79428BE2117002AC3AD /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				8B78D79128BE2116002AC3AD /* ContentView.swift in Sources */,
 				8B78D78F28BE2116002AC3AD /* Fasty_SwiftUIApp.swift in Sources */,
+				8B847D2E28BE863400107FF1 /* FastingManager.swift in Sources */,
 				8B78D79D28BE3011002AC3AD /* ProgressRing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +292,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,7 +321,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
