@@ -28,14 +28,17 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             content
+                .padding(.vertical, 50)
         }
     }
     
     var content: some View {
         ZStack {
-            VStack(spacing: 40) {
+            
+            VStack(spacing: 50) {
                 // MARK: Title
                 Text("Let's get started!")
+                    
                     .font(.headline)
                     .foregroundColor(Color(#colorLiteral(red: 0.3663273156, green: 0.5047162175, blue: 0.9721121192, alpha: 1)))
                 
@@ -51,9 +54,9 @@ struct ContentView: View {
             }
             
             
-            VStack(spacing: 40) {
+            VStack(spacing: 60) {
                 // MARK: Progress Ring
-                
+                Spacer()
                 ProgressRing()
                     .environmentObject(fastingManager)
                 HStack(spacing: 60) {
